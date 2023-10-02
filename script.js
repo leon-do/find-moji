@@ -1,5 +1,5 @@
 // number of emojis on screen
-const max = 266;
+const max = 260;
 
 // randomly pick an emoji to find
 const findIndex = Math.floor(Math.random() * max);

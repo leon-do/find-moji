@@ -1,6 +1,6 @@
 #background {
-  padding: 0 60px 0 60px;
-  width: 1080px;
+  padding: 0 40px 0 40px;
+  width: 1000px;
   height: 1920px;
   background-color: #ffde34;
 }
@@ -15,6 +15,7 @@
   font-size: 100px;
 }
 #alphabet {
+  text-align: center;
   font-family: monospace;
   font-size: 75px;
   letter-spacing: 1px;
