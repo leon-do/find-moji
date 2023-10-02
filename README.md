@@ -1,3 +1,3 @@
 # Find.Moji
 
-![download](https://github.com/leon-do/wheres-moji/assets/19412160/1dccb9fa-7ca8-4085-865e-d52e1501e844)
+![download (1)](https://github.com/leon-do/find-moji/assets/19412160/34a0ae19-4f51-469e-a783-350f9ef98653)
