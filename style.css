@@ -1,0 +1,22 @@
+#background {
+  padding: 0 60px 0 60px;
+  width: 1080px;
+  height: 1920px;
+  background-color: #ffde34;
+}
+#title {
+  text-align: center;
+  font-size: 150px;
+  padding: 50px;
+}
+#emojis {
+  letter-spacing: -25px;
+  line-height: 75px;
+  font-size: 100px;
+}
+#alphabet {
+  font-family: monospace;
+  font-size: 75px;
+  letter-spacing: 1px;
+  opacity: 0.1;
+}
