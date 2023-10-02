@@ -25,4 +25,13 @@ document.getElementById("emojis").innerHTML = html;
 html2canvas(document.querySelector("#background")).then((canvas) => {
   document.body.appendChild(canvas);
   document.getElementById("background").style.display = "none";
+
+  // download
+  let canvasUrl = canvas.toDataURL("image/jpeg", 0.5);
+  console.log(canvasUrl);
+  const createEl = document.createElement("a");
+  createEl.href = canvasUrl;
+  createEl.download = "download-this-canvas";
+  createEl.click();
+  createEl.remove();
 });
