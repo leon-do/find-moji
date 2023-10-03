@@ -27,7 +27,7 @@ html2canvas(document.querySelector("#background")).then((canvas) => {
   document.getElementById("background").style.display = "none";
 
   // download
-  let canvasUrl = canvas.toDataURL("image/jpeg", 0.5);
+  let canvasUrl = canvas.toDataURL("image/jpeg", 1);
   console.log(canvasUrl);
   const createEl = document.createElement("a");
   createEl.href = canvasUrl;
